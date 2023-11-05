@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar for Normal Screen -->
+        <nav id="normal">
+            <ul>
+                <li><a href="#section2">Role</a></li>
+                <li><a href="#section3">Skill</a></li>
+                <li><a href="#section4">Project</a></li>
+                <li><a id="resume" href="#">Resume</a></li>
+            </ul>
+        </nav>
+
+        <!-- Navbar for Mobile Screen-->
+        <nav id="hamburger">
+            <div class="navbar">
+                <div class="container nav-container">
+    
+                    <input class="checkbox" type="checkbox"/>
+                    <div class="hamburger-lines">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </div>
+                    <div class="menu-items">
+                        <li><a href="#section2">Role</a></li>
+                        <hr>
+                        <li><a href="#section3">Skill</a></li>
+                        <hr>
+                        <li><a href="#section4">Project</a></li>
+                        <hr>
+                        <li><a id="resume" href="#">Resume</a></li>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <article id="section1" class="section1">
+            <div class="section1-text-card">
+                <h1>Front-end and Back-end Developer</h1>
+                <p>I just want to create something beautiful, meaningful, and inspiring that resonates with people on a profound level.</p>
+            </div>
+            <aside>
+                <figure>
+                    <img src="./Assets/Background Merah.jpg" alt="Foto">
+                </figure>
+            </aside>
+        </article>
+        <article id="section2" class="section2">
+            <div class="section2-text-card">
+                <h2>Role</h2>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-role">
+                    <img src="./Assets/frontend.png" alt="icon frontend">
+                    <div class="text-overlay">
+                        <h3>Front-end</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-role">
+                    <img src="./Assets/api.png" alt="icon api">
+                    <div class="text-overlay">
+                        <h3>Back-end</h3>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node js</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="section3" class="section3">
+            <h2>Skill</h2>
+            <div class="skill-wrapper">
+                <div class="skill-wrapper-1">
+                    <h4>Front-end</h4>
+                    <div class="skill-progress">
+                        <div class="skill-progress1">
+                            <p id="skill-frontend"></p>
+                            <div class='bar' data-progress='1'></div>
+                            <div class='bar' data-progress='2'></div>
+                            <div class='bar' data-progress='3'></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-wrapper-2">
+                    <h4>Back-end</h4>
+                    <div class="skill-progress">
+                        <div class="skill-progress2">
+                            <p id="skill-backend"></p>
+                            <div class='bar' data-progress='1'></div>
+                            <div class='bar' data-progress='2'></div>
+                            <div class='bar' data-progress='3'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article id="section4" class="section4">
+            <h2>Project</h2>
+            <div class="card-wrapper">
+                <img src="./Assets/Coming_Soon.png" alt="">
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        &copy; 2023, Khairul Damar
+    </footer>
+
+<script src="./script.js"></script> 
+</body>
+</html>
